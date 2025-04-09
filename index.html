@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Conteudo com JavaScript</title>
+</head>
+<body>
+    <!--Titulo Principal-->
+    <h1 id="titulo-principal">Título Inicial</h1>
+
+    <!--Subtitulo-->
+    <h2 id="subtitulo">Subtítulo Inicial</h2>
+
+    <!--Parágrafo-->
+    <p id="paragrafo">Este é um parágrafo inicial.</p>
+
+    <!--Caixa de entrada de texto-->
+    <input type="text" id="campo-texto" placeholder="Digite algo aqui">
+
+    <!--div para conteúdos-->
+    <div id="div-conteudo">
+        <p>Este conteúdo será alterado ao clicar no botão abaixo.</p>
+        <button onclick="alterarConteudo()">Clique para alterar conteúdo</button>
+    </div>
+
+<script>
+    function alterarConteudo() {
+        let novoTexto = prompt("Digite um novo conteúdo para o parágrafo:");
+    }
+
+    if (novo texto) {
+        document.getElementById("paragrafo").innerHTML = novoTexto;
+    } else {
+        alert("voce nao inseriu nada!");
+    }
+    
+</script>
+
+
+
+
+
+    
+</body>
+</html>
